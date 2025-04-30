@@ -1,53 +1,50 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: #fff;
-    color: #333;
+    background-color: #f9f9f9;
+    color: #222;
 }
 
 header {
-    background: #155c3b;
-    color: gold;
-    padding: 2rem;
+    background-color: #004d40;
+    padding: 20px;
     text-align: center;
+    color: white;
+}
+
+header img {
+    max-height: 80px;
 }
 
 main {
-    padding: 2rem;
-}
-
-.intro {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.order-link {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    background: mintcream;
-    color: #155c3b;
-    text-decoration: none;
-    border: 2px solid #155c3b;
-    border-radius: 8px;
-}
-
-.social ul {
-    list-style: none;
-    padding: 0;
+    padding: 20px;
     text-align: center;
 }
 
-.social ul li {
-    display: inline-block;
+.menu-image {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    display: block;
+}
+
+.socials {
+    margin-top: 30px;
+}
+
+.socials a {
     margin: 0 10px;
+    text-decoration: none;
+    color: #004d40;
+    font-weight: bold;
 }
 
 footer {
+    margin-top: 40px;
+    background-color: #004d40;
+    color: white;
+    padding: 15px 0;
     text-align: center;
-    padding: 1rem;
-    background: #eee;
-    color: #555;
 }
